@@ -212,7 +212,7 @@ void querySelectedText(QString text){
 
 }
 void forlicence(){
-    if(QDate::currentDate()>=QDate(2013,12,21)){
+    if(QDate::currentDate()>=QDate(2099,12,21)){
         QMessageBox::warning(mainWindow, QObject::tr("扇贝词典需要更新了"),QObject::tr("为了更好的为大家服务，请下载安装最新版本扇贝词典。<br>%1").arg(licenceinformation));
         close();
     }
